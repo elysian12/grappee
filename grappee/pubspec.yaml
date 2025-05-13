@@ -1,0 +1,20 @@
+name: grappee
+description: Grappus project setup CLI tool
+version: 0.1.0
+homepage: https://github.com/grappus/grappee
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  args: ^2.4.0           # For command line argument parsing
+  mason_logger: ^0.2.5   # For pretty logging
+  path: ^1.8.3           # For path manipulation
+  process_run: ^0.12.5   # For running processes
+
+dev_dependencies:
+  lints: ^2.1.0
+  test: ^1.24.0
+
+executables:
+  grappee: grappee 
